@@ -31,10 +31,11 @@ function App() {
   };
 
   const groups = [
-    'React Developers',
-    'Designers Community',
+    'Mental Health Matters',
+    'Paranaque NDRRMC',
     'Fitness Enthusiasts',
-    'Food Lovers',
+    'Emergency Response Taguig',
+    'Be Alert',
   ];
 
   return (
@@ -104,7 +105,7 @@ function App() {
                   Ads
                 </Typography>
                 <Typography variant="body2" component="div">
-                  Advertisements here
+                 Buy 60%off now at Shapi
                 </Typography>
               </Typography>
             </Paper>

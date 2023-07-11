@@ -29,27 +29,27 @@ export default function DashboardPage() {
 
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Complaints" total={714000} icon={'ant-design:android-filled'} />
+            <AppWidgetSummary title="Complaints" total={714000} icon={'clarity:list-solid'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="News" total={1352831} color="info" icon={'ant-design:apple-filled'} />
+            <AppWidgetSummary title="News" total={1352831} color="info" icon={'arcticons:top-news'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="My Emergency Checklist" total={1723315} color="warning" icon={'ant-design:windows-filled'} />
+            <AppWidgetSummary title="My Emergency Checklist" total={1723315} color="warning" icon={'material-symbols:checklist'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-         <AppWidgetSummary title="Weather Monitoring" total={234} color="error" icon={'ant-design:bug-filled'} />
+         <AppWidgetSummary title="Weather Monitoring" total={234} color="error" icon={'material-symbols:weather-mix'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Seismic Movement" total={714000} icon={'ant-design:android-filled'} />
+            <AppWidgetSummary title="Seismic Movement" total={714000} icon={'ri:earthquake-fill'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Fire Monitoring " total={1352831} color="info" icon={'ant-design:apple-filled'} />
+            <AppWidgetSummary title="Fire Monitoring " total={1352831} color="info" icon={'bi:fire'} />
           </Grid>
 
 

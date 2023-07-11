@@ -20,6 +20,9 @@ import ChatMessenger from './views/messenger/chatMessenger';
 import CommunitySupport from './views/communitysupport';
 import MapEscort from './views/escort';
 import SafeCheckIn from './views/checkin';
+import EarthquakeMonitoring from './views/earthquake';
+import FireAlarmMonitoringSystem from './views/fire';
+import WeatherMonitoringSystem from './views/weather';
 
 export default function Router() {
   const routes = useRoutes([
@@ -37,11 +40,13 @@ export default function Router() {
         { path: 'add-complaint', element: <AddComplaint /> },
         { path: 'news', element: <NewsPage /> },
         { path: 'my-emergency-plan', element: <EmergencyPlan /> },
-       
         { path: 'messenger', element: <ChatMessenger /> },
         { path: 'community', element: <CommunitySupport /> },
         { path: 'escort', element: <MapEscort /> },
         { path: 'checkin', element: <SafeCheckIn /> },
+        { path: 'earthquake', element: <EarthquakeMonitoring /> },
+        { path: 'fire', element: <FireAlarmMonitoringSystem /> },
+        { path: 'weather', element: <WeatherMonitoringSystem /> },
       ],
     },
     {

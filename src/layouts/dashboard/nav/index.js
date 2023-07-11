@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 // @mui
 import { styled, alpha } from '@mui/material/styles';
-import { Box, Link, Button, Drawer, Typography, Avatar, Stack } from '@mui/material';
+import { Box, Link, Button, Drawer, Typography, Avatar, Stack ,Grid} from '@mui/material';
 // mock
 import account from '../../../_mock/account';
 // hooks
@@ -14,7 +14,7 @@ import Scrollbar from '../../../components/scrollbar';
 import NavSection from '../../../components/nav-section';
 //
 import navConfig from './config';
-
+import imglogo from '../../../views/assets/Logo.png'
 // ----------------------------------------------------------------------
 
 const NAV_WIDTH = 280;
@@ -61,8 +61,10 @@ export default function Nav({ openNav, onCloseNav }) {
       }}
     >
      
-      <Box sx={{ px: 2.5, py: 3, display: 'inline-flex' }}>
-        <Logo />
+      <Box sx={{ px: 2.5, py: 3, display: 'inline-flex',height: '10hv' }}>
+        {/* <Logo /> */}
+
+        <img src={imglogo} alt="logo" style={{ maxWidth: '100%',height: '75px'}} />
       </Box>
 
       <Box sx={{ mb: 5, mx: 2.5 }}>

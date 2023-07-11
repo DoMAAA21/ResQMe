@@ -16,15 +16,21 @@ const navConfig = [
     path: '/dashboard/app',
     icon: icon('ic_analytics'),
   },
+  
   {
-    title: 'user',
-    path: '/dashboard/user',
+    title: 'My Friends',
+    path: '/dashboard/friends',
     icon: icon('ic_user'),
   },
   {
-    title: 'news',
-    path: '/dashboard/news',
-    icon: icon('ic_user'),
+    title: 'Track',
+    path: '/dashboard/track',
+    icon: icon('ic_track'),
+  },
+  {
+    title: 'More',
+    path: '/dashboard/more',
+    icon: icon('ic_more'),
   },
 
   
